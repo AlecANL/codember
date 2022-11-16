@@ -7,4 +7,4 @@
 </div>
 
 ## Challenges
-- [Challenge 1]()
+- [Challenge 1](https://github.com/AlecANL/codember/tree/main/src/2022/01-challenge)
