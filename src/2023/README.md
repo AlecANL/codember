@@ -20,7 +20,7 @@
 - For example, do `Circle, L1, Left, R1, L2, X, R1, L1, Circle, X`.
 - You don't need to send a command, just do a key combination.
 
-<!-- ⬆️, ⬆️, ⬇️, ⬇️, ⬅️, ➡️, ⬅️, ➡️, B, A  -->
+⬆️, ⬆️, ⬇️, ⬇️, ⬅️, ➡️, ⬅️, ➡️, B, A
 <br/>
 
 </details>
@@ -33,7 +33,10 @@
 - Use the commands to move between folders and read files (use the `help` command to get a list of available commands).
 - The person is the CEO of a major hosting company, a close friend of midu
 
-<!-- $ submit rauch -->
+```bash
+submit rauch
+```
+
 <br/>
 
 </details>
@@ -47,7 +50,10 @@
 - To read an email use the command `mail <id>`.
 - Remember to use the correct format for the date.
 
-<!-- $ submit 2023-12-01 -->
+```bash
+submit 2023-12-01
+```
+
 <br/>
 
 </details>
@@ -60,7 +66,10 @@
 - You can read the `CHANGELOG.txt` file to get information about the new version.
 - He who perseveres shall attain.
 
-<!-- $ confetti --- Send the command several times -->
+```bash
+confetti --- Send the command several times
+```
+
 <br/>
 
 </details>
@@ -74,8 +83,11 @@
 - There is a Disney movie with the same name.
 - Just write the word
 
-<!-- abracadabra  -->
-<!-- $ submit itsmagic  -->
+```bash
+abracadabra 
+$ submit itsmagic
+ ```
+
 <br/>
 
 </details>
@@ -108,7 +120,10 @@
 - It is an iconic phrase from a Nintendo 64 game.
 - It is a Google easter egg.
 
-<!-- $ do a barrel roll -->
+```bash
+do a barrel roll
+```
+
 <br/>
 
 </details>
@@ -122,7 +137,10 @@
 - For this secret you need to access the `private` folder. The _mail_ number 3 tells you how to access it.
 - In the `private` folder you can read the `log_mars_mission.txt` file with the cat command: `cat log_mars_mission.txt`.
 
-<!-- $ submit majortom -->
+```bash
+submit majortom
+```
+
 <br/>
 
 </details>
@@ -136,7 +154,10 @@
 - For this secret you need to access the `private` folder. The _mail_ number 3 tells you how to access it.
 - In the `private` folder you will see the image `ai.webp` with the cat command: `cat ai.webp`.
 
-<!-- submit Altman -->
+```bash
+submit Altman
+```
+
 <br/>
 
 </details>
@@ -153,8 +174,11 @@
 - It is a single command consisting of two words together in English.
 - Reference to a famous npm package.
 
-<!-- cowsay -->
-<!-- submit ping -->
+```bash
+cowsay
+submit ping
+```
+
 <br/>
 
 </details>
@@ -168,7 +192,10 @@
 - To read an email use the command `mail <id>`.
 - It is a 3-letter word.
 
-<!-- submit bug -->
+```bash
+submit bug
+```
+
 <br/>
 
 </details>
@@ -180,7 +207,10 @@
 
 - You can read the `CHANGELOG.txt` file to get information about the new version.
 
-<!-- play tetris -->
+```bash
+play tetris
+```
+
 <br/>
 
 </details>
@@ -194,7 +224,10 @@
 - In the `private` folder you can read the file `final_log_mars_mission.txt` with the command cat: `cat final_log_mars_mission.txt`.
 - Look for the command in the text.
 
-<!-- npm install adventjs -->
+```bash
+npm install adventjs
+```
+
 <br/>
 
 </details>
