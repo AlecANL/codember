@@ -1,4 +1,3 @@
-# Codember 2023
 
 ![cover2023](/public/images/cover2023.png)
 
