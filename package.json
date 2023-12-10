@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "test01": "vitest src/2023/challenges/01/app.test.ts",
-    "test03": "vitest src/2023/challenges/03/app.test.ts"
+    "test03": "vitest src/2023/challenges/03/app.test.ts",
+    "test04": "vitest src/2023/challenges/04/app.test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.3",
