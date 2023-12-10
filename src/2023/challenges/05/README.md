@@ -1,36 +1,42 @@
-# THackers Damage File System
+# The Final Problem
 
-In a world where information is power, a hacker known as Savipo Yatar discovers a series of files on a highly protected server.
+Finally, hackers have managed to access the database and have corrupted it. But it seems they have left a hidden message in the database. Can you find it?
 
-These files contain secrets that could change the course of history. But there's a problem: some of the files are fake, designed to deceive intruders. Savipo Yatar must quickly determine which files are real and which are fake.
+Our database is in .csv format. The columns areid,username,email,age,location.
 
-Each file has a name with two parts, separated by a hyphen (-). The first part is an alphanumeric string, and the second is achecksum, which is a string formed by the characters that only appear once in the first part and in the order in which they appear.
+A user is only valid if:
 
-Write a program that determines whether a file is real or fake based on these rules.
-
+- id: exists and is alphanumeric
+- username: exists and is alphanumeric
+- email: exists and is valid (follows the pattern <user@domain.com>)
+- age: is optional but if it appears it is a number
+- location: is optional but if it appears it is a text string
 Examples:
 
 ```bash
-File name: xyzz33-xy
-Result: ✅ Real (The checksum is valid)
-File name: abcca1-ab1
-Result: ❌ Fake (The checksum should be b1, it's incorrect)
-File name: abbc11-ca
-Result: ❌ Fake (The checksum should be ac, the order is incorrect)
-Each line indicates the file name and its corresponding checksum, separated by a hyphen (-).
+Entry: 1a421fa,alex,<alex9@gmail.com>,18,Barcelona
+Result: ✅ Valid
+
+Entry: 9412p_m,maria,<mb@hotmail.com>,22,CDMX
+Result: ❌ Invalid (id is not alphanumeric, the_ is extra)
+
+Entry: 494ee0,madeval,<mdv@twitch.tv>,,
+Result: ✅ Valid (age and location are optional)
+Entry: 494ee0,madeval,twitch.tv,22,Montevideo
+Result: ❌ Invalid (email is not valid)
 ```
 
-**How to Solve It**
+## How to Solve It
 
-1. Analyze the list of file names and their checksums that you will find in this file: <https://codember.dev/data/files_quarantine.txt>
+1. Analyze the list of database entries and detect the invalid ones:<https://codember.dev/data/database_attacked.txt>
 
-2. Look for the real file number 33 (of all the real files, the 33rd in order of appearance) and submit its checksum with submit. For example, if the file is xyzz33-xy, you would do:
-submit xy
+2. Find the first letter of the username of all invalid users. Gather them in the order of appearance and uncover the hidden message. Then send it with submit. For example:
+submit att4ck
 
 ## Answer
 
 ```bash
-submit O2hrQ 
+submit youh4v3beenpwnd 
 ```
 
 [⬅️ Back](https://github.com/alecanl/codember)
