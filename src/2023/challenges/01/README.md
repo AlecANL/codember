@@ -1,4 +1,4 @@
-# Challenge #01
+# A spy is sending encrypted messages
 
 A spy is sending encrypted messages.
 

@@ -1,38 +1,48 @@
-# Challenge #01
+# Mini Compiler Challenge
 
-A spy is sending encrypted messages.
+In the world of espionage, a coding language is used with symbols that perform simple mathematical operations.
 
-Your mission is to create a program that decodes the messages.
+Your task is to create a mini compiler that interprets and executes programs written in this symbol language.
 
-The messages are words separated by spaces like this:
-```cat dog dog car Cat doG sun```
+The operations of the language are as follows:
 
-We need the program to return the number of times each word appears in the message, regardless of whether it is in uppercase or lowercase.
-
-The result will be a text string with the word and the number of times it appears in the message, in this format:
-``cat2dog3car1sun1``
-
-The words are sorted by their first appearance in the message!
-
-**More Examples:**
-
-```bash
-houses house housess -> houses1house1housess1
-keys house HOUSE house keys -> keys2house3
-cup te a cup -> cup2te1a1
+```typescript
+"#" Increases the numeric value by 1.
+"@" Decreases the numeric value by 1.
+"*" Multiplies the numeric value by itself.
+"&" Prints the current numeric value.
 ```
 
-**How to Solve It**
+The initial numeric value is 0 and the operations should be applied in the order in which they appear in the string of symbols.
 
-1. Solve the message you will find in this file: <https://codember.dev/data/message_01.txt>
+## Examples
+
+```bash
+Input: "##*&"
+Expected Output: "4"
+Explanation: Increment (1), increment (2), multiply (4), print (4).
+```
+
+```bash
+Input: "&##&*&@&"
+Expected Output: "0243"
+Explanation: Print (0), increment (1), increment (2), print (2), multiply (4), print (4), decrement (3), print (3).
+```
+
+## Your Challenge
+
+Develop a mini compiler that takes a text string and returns another text string with the result of executing the program.
+
+## How to Solve It
+
+1. Solve the message you will find in this file: <https://codember.dev/data/message_02.txt>
 
 2. Submit your solution with the "submit" command in the terminal, for example like this:
-``submit dog3cat3car1sun1``
 
 ## Answer
 
 ```bash
-submit murcielago15leon15jirafa15cebra6elefante15rinoceronte15hipopotamo15ardilla15mapache15zorro15lobo15oso15puma2jaguar14tigre10leopardo10gato12perro12caballo14vaca14toro14cerdo14oveja14cabra14gallina10pato10ganso10pavo10paloma10halcon11aguila11buho11colibri9canario8loro8tucan8pinguino7flamenco7
+submit 024899455
 ```
 
 [⬅️ Back](https://github.com/alecanl/codember)
