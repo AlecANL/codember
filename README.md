@@ -19,6 +19,7 @@ You get a score depending on how long it takes you to solve the challenge since 
 | ##    |                               Challenges                              |                              Solutions                               |
 | :---: |:---------------------------------------------------------------------:|:--------------------------------------------------------------------:|
 |  2023   | [Go to](https://codember.dev/)                                       |   [View](https://github.com/AlecANL/codember/tree/main/src/2023)     |
+|  2024   | [Go to](https://codember.dev/)                                       |   [View](https://github.com/AlecANL/codember/tree/main/src/2024)     |
 
 ## 🚀 Quick start
 
