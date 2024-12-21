@@ -8,9 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test01": "vitest src/2023/challenges/01/app.test.ts",
-    "test03": "vitest src/2023/challenges/03/app.test.ts",
-    "test04": "vitest src/2023/challenges/04/app.test.ts"
+    "test01": "vitest src/2024/challenges/05/app.test.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.3",
@@ -20,7 +18,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.7.2",
     "vite": "^5.0.0",
     "vitest": "^1.0.1"
   }
